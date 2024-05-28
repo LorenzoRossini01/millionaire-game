@@ -1,0 +1,4 @@
+name,email,password,score
+Admin,admin@gmail.com,12341234,0
+John Doe,john@example.com,hashedpassword1,8
+Jane Smith,jane@example.com,hashedpassword2,6
