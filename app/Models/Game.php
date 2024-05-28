@@ -32,4 +32,9 @@ class Game extends Model
     {
         return $this->hasMany(GameHint::class);
     }
+
+    public function isEnded()
+    {
+        return !is_null($this->end_time);
+    }
 }
